@@ -25,3 +25,19 @@ main{
 .dark-mode a:hover{
     color: salmon;
 }
+.mobile{
+    display: none;
+}
+
+@media (max-width:999px){
+    main{
+        display: none;
+    }
+    .mobile{
+        display: block;
+        background-color: #dfdfdf;
+        margin:10% auto;
+        max-width: 500px;
+        padding: 2%;
+    }
+}
